@@ -16,7 +16,10 @@
     <depends>Git4Idea</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <applicationConfigurable
+            instance="com.github.mika880911.ui.SettingConfig"
+            id="com.github.mika880911.ui.SettingConfig"
+        />
     </extensions>
 
     <actions>
