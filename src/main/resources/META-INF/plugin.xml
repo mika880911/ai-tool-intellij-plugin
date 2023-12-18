@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>com.github.mika880911.ai-tool-intellij-plugin</id>
+    <name>AI Tool</name>
+    <vendor email="1215stps@gmail.com" url="https://github.com/mika880911">Mika</vendor>
+
+    <description><![CDATA[
+    Feature
+    <ul>
+        <li>Generate conventional commit message</li>
+    </ul>
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
