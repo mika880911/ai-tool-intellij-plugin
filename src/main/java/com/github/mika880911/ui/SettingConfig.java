@@ -1,6 +1,8 @@
 package com.github.mika880911.ui;
 
+import com.intellij.ide.plugins.PluginManagerCore;
 import com.intellij.openapi.application.ApplicationManager;
+import com.intellij.openapi.extensions.PluginId;
 import com.intellij.openapi.options.Configurable;
 import com.intellij.openapi.options.ConfigurationException;
 import javax.swing.*;
@@ -14,7 +16,7 @@ public class SettingConfig implements Configurable
 
     public String getDisplayName()
     {
-        return "AI Tool Setting";
+        return PluginManagerCore.getPlugin(PluginId.getId("com.github.mika880911.ai-tool-intellij-plugin")).getName();
     }
 
     public JComponent createComponent()
