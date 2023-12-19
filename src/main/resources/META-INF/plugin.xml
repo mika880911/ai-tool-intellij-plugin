@@ -25,7 +25,7 @@
     <actions>
         <!-- Add your actions here -->
         <action id="GenerateCommitMessageAction" class="com.github.mika880911.commit.GenerateCommitMessageAction"
-                text="Generate Commit Message" description="Generate Commit Message">
+                text="Generate Commit Message" description="Generate Commit Message" icon="icons/24x24.png">
             <add-to-group group-id="Vcs.MessageActionGroup" anchor="last"/>
         </action>
     </actions>
